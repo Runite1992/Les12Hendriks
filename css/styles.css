@@ -1,18 +1,41 @@
 body {
     background-color: rgb(255, 255, 255);
   }
+.header {
+    background-color: #00006b;
+}
+.footer {
+    background-color: rgb(0, 255, 234);
+}
   h1 {
     color: rgb(0, 255, 242);
   }
   h2 {
-    color: rgb(251, 255, 0);
-  }
-  p {
-    color: red;
+    color: rgb(0, 87, 8);
   }
 
-td { width:400px; height:400px; border:1px solid #333; }
-td.a { background-color:red; }
-td.b { background-color:blue; }
-td.c { background-color:purple; }
-td.d { background-color:green; }
+/* Table Sizes */
+td { width:200px; height:200px; border:1px solid #333; }
+/* Begin Tablerow 1*/
+#a { background-color:red; color: blue; font-size: xx-large; }
+#b { background-color:blue; }
+#c { background-color:green; color: yellow; font-size: xx-large; }
+#d { background-color:yellow; }
+  /* Einde Tablerow 1*/
+  /* Begin Tablerow 2*/
+#a1 { background-color:rgb(255, 0, 106); color: rgb(0, 255, 0); font-size: xx-large;}
+#b1 { background-color:rgb(212, 0, 255); }
+#c1 { background-color:rgb(98, 0, 255);  color: red; font-size: xx-large; }
+#d1 { background-color:rgb(0, 46, 114); }
+/* Begin Tablerow 2*/
+#a2 { background-color:rgb(255, 174, 0); color: purple; font-size: xx-large; }
+#b2 { background-color:rgb(30, 255, 0);  }
+#c2 { background-color:rgb(0, 247, 255); color: brown;  font-size: xx-large; }
+#d2 { background-color:rgb(0, 119, 255);  }
+/* Einde Tablerow 2*/
+/* Begin Tablerow 3*/
+#a3 { background-color:rgb(37, 53, 37); color: orange; font-size: xx-large; }
+#b3 { background-color:rgb(29, 80, 63); }
+#c3 { background-color:rgb(38, 158, 88); color: pink;   font-size: xx-large; }
+#d3 { background-color:rgb(73, 230, 164); }
+/* Einde Tablerow 3*/
