@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  h1 {
+    color: rgb(0, 255, 242);
+  }
+  h2 {
+    color: rgb(251, 255, 0);
+  }
+  p {
+    color: red;
+  }
+
+td { width:400px; height:400px; border:1px solid #333; }
+td.a { background-color:red; }
+td.b { background-color:blue; }
+td.c { background-color:purple; }
+td.d { background-color:green; }
